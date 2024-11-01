@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/satyanshuProfile.jpeg";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -35,13 +35,13 @@ const Hero = () => {
               dragConstraints={{ left: -100, right: 100 }}
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Full Stack Developer
+              Front-End Developer
             </motion.span>
             <motion.p
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 max-w-xl py-6 font-normal tracking-tighter"
             >
               {HERO_CONTENT}
             </motion.p>
@@ -53,6 +53,7 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1}}
               transition={{ duration: 1, delay: 1}}
+              className="rounded-xl"
               src={profilePic}
               alt="Satyanshu Vishwakarma"
             />

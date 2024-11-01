@@ -1,11 +1,12 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a Front-end developer skilled in HTML, CSS, JavaScript, ReactJS, SQL, C++, and Data Structures & Algorithms, with a passion for creating dynamic, user-friendly interfaces. Currently expanding expertise in backend development with Node.js, Express, and MongoDB, aiming to build full-stack applications with seamless performance and functionality.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I’m a Front-End Developer with a solid foundation in HTML, CSS, JavaScript, and ReactJS, dedicated to crafting seamless and engaging user experiences. My expertise also extends to SQL, C++, and Data Structures & Algorithms, bringing a well-rounded approach to efficient, dynamic front-end development.Currently, I'm broadening my skill set by diving into backend technologies like Node.js, Express, and MongoDB, working toward becoming a full-stack developer. I enjoy taking on complex challenges, continuously learning, and staying on top of emerging technologies to deliver robust, user-focused applications.`;
 
 export const EXPERIENCES = [
   {
@@ -40,37 +41,49 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Chat App",
     image: project1,
+    link:'https://react-chat-app-nfs0.onrender.com/',
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A work in progress project made using firebase for implementing real time chat update. Not responsive yet but works fine on desktop.",
+    technologies: ["HTML", "CSS", "React", "Node.js", 'Firebase'],
   },
   {
-    title: "Task Management App",
+    title: "Google Gemini Clone",
     image: project2,
+    link:'https://gemini-clone-3p5w.onrender.com/',
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A fully responsive Google Gemini Clone website made using the free Gemini API to fetch answers to the user prompts.",
+    technologies: ["HTML", "CSS", "React", "Node.js"],
   },
   {
-    title: "Portfolio Website",
+    title: "Weather App",
     image: project3,
+    link: 'https://satyanshuvish.github.io/Weather-App/',
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "An simple weather app made using HTML, CSS, JavaScript and using free api from openweathermap. ",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
-    title: "Blogging Platform",
+    title: "React Calculator",
     image: project4,
+    link: 'https://react-calculator-cuod.onrender.com/',
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A simple calculator made from scratch for performing simple arithmetic calculations.",
+    technologies: ["HTML", "CSS", 'JavaScript', "React"],
+  },
+  {
+    title: "Snake Game",
+    image: project5,
+    link: 'https://satyanshuvish.github.io/Snake-Game/',
+    description:
+      "A custom snake game made while revising the CSS and JavaScript concepts.",
+    technologies: ["HTML", "CSS", 'JavaScript'],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Kushinagar, Uttar Pradesh, PIN CODE: 274403 ",
+  phoneNo: "+917985634708",
+  email: "satyanshu.hata@gmail.com",
 };

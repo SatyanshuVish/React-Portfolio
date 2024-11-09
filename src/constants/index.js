@@ -40,14 +40,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  {
-    title: "Chat App",
-    image: project1,
-    link:'https://react-chat-app-nfs0.onrender.com/',
-    description:
-      "A work in progress project made using firebase for implementing real time chat update. Not responsive yet but works fine on desktop.",
-    technologies: ["HTML", "CSS", "React", "Node.js", 'Firebase'],
-  },
+  // {
+  //   title: "Chat App",
+  //   image: project1,
+  //   link:'https://react-chat-app-nfs0.onrender.com/',
+  //   description:
+  //     "A work in progress project made using firebase for implementing real time chat update. Not responsive yet but works fine on desktop.",
+  //   technologies: ["HTML", "CSS", "React", "Node.js", 'Firebase'],
+  // },
   {
     title: "Google Gemini Clone",
     image: project2,
